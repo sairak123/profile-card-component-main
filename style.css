@@ -1,0 +1,71 @@
+
+
+body{
+  background-color: #19a2ae;
+  font-family:"kumbh sans",sans-serif;
+  margin:0;
+  max-width: 1200px;
+}
+
+.container{
+  display:flex;
+  width:350px;
+  height:400px;
+  background-color:white;
+position: absolute;
+top:20%;
+left:40%;
+border-radius: 20px;
+
+}
+p{
+  font-size:18px;
+}
+.bg-top{
+ position:relative;
+ bottom:500px;
+ right:350px;
+}
+.victor{
+  border-radius: 100px;
+  justify-content: center;
+  position: relative;
+  left:110px;
+  bottom:50px;
+  border:2px solid white;
+}
+.content{
+  position: relative;
+  left:20px;
+}
+.london{
+  position:relative;
+  left:140px;
+  top:10px;
+}
+.card-image{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.stat{
+  display:flex;
+  position:relative;
+  top:40px;
+  width: 300px;
+  justify-content:space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+.card{
+  display: grid;
+  top:0;
+  left:0;
+  width:350px;
+}
+.bg-bottom{
+  position: absolute;
+  left:600px;
+top:300px;
+  width: 30px;
+height:10px;
+}
